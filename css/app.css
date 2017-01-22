@@ -1,0 +1,134 @@
+body .pageContent {
+  padding: 0px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  body .pageContent .navbar {
+    padding-right: 5%;
+    background-color: #e8e8ee; }
+    @media (min-width: 767px) {
+      body .pageContent .navbar {
+        padding-right: 20%; } }
+    body .pageContent .navbar .navbar-brand {
+      font-family: "Parisienne", cursive;
+      padding-left: 5%; }
+      @media (max-width: 590px) {
+        body .pageContent .navbar .navbar-brand {
+          padding-left: 2%; } }
+      @media (max-width: 600px) and (min-width: 345px) {
+        body .pageContent .navbar .navbar-brand h2 {
+          padding-top: 3px;
+          font-size: 1.7rem; } }
+      @media (max-width: 344px) {
+        body .pageContent .navbar .navbar-brand h2 {
+          padding-top: 6px;
+          font-size: 1.2rem; } }
+    body .pageContent .navbar .navbar-toggler .nav-icon {
+      height: 20px; }
+    body .pageContent .navbar .navbar-nav {
+      padding-top: 3px; }
+  body .pageContent .pageCenter {
+    width: 100%; }
+    @media (min-width: 768px) {
+      body .pageContent .pageCenter {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1; } }
+    body .pageContent .pageCenter .row.match-my-cols {
+      overflow: hidden;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      body .pageContent .pageCenter .row.match-my-cols .content {
+        background-color: white;
+        padding: 15px;
+        text-align: justify; }
+      body .pageContent .pageCenter .row.match-my-cols .findMe {
+        padding: 2%;
+        background: #f7f7f9;
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start; }
+        body .pageContent .pageCenter .row.match-my-cols .findMe .icons {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column; }
+          @media (max-width: 767px) {
+            body .pageContent .pageCenter .row.match-my-cols .findMe .icons {
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              -ms-grid-row-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center; } }
+          body .pageContent .pageCenter .row.match-my-cols .findMe .icons .icon {
+            margin: 3%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-line-pack: center;
+            align-content: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 3%; }
+            @media (max-width: 340px) {
+              body .pageContent .pageCenter .row.match-my-cols .findMe .icons .icon .icon-bitbucket-squared:before {
+                font-size: 40px; } }
+            @media (max-width: 340px) {
+              body .pageContent .pageCenter .row.match-my-cols .findMe .icons .icon .icon-facebook-squared:before {
+                font-size: 40px; } }
+            @media (max-width: 340px) {
+              body .pageContent .pageCenter .row.match-my-cols .findMe .icons .icon .icon-linkedin-squared:before {
+                font-size: 40px; } }
+  body .pageContent .footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #bdbdcd; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+
+.carousel-inner .carousel-item img {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=app.css.map */
